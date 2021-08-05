@@ -21,12 +21,10 @@ import com.github.dhaval2404.imagepicker.ImagePicker
 import javax.inject.Inject
 
 class AddOrUpdateAnimalActivity : BaseActivity(), View.OnClickListener {
-
     private lateinit var binding: ActivityAddOrUpdateAnimaleBinding
     private var isUpdate = false
     private var imageUri: Uri? = null
     private var animalModel: AnimalModel? = null
-
 
     @Inject
     lateinit var mainActivityFactory: MainActivityFactory
@@ -48,7 +46,7 @@ class AddOrUpdateAnimalActivity : BaseActivity(), View.OnClickListener {
     }
 
     private fun initializeData() {
-        animalModel = intent.getSerializableExtra(singleton.SELECTED_MODEL) as? AnimalModel
+        animalModel = intent.getSerializableExtra(singleton.selectedModel) as? AnimalModel
         binding.headerV.tickIV.visibility = View.VISIBLE
         if (animalModel != null) {
             isUpdate = true

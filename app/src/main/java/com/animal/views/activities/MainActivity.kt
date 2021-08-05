@@ -81,7 +81,7 @@ class MainActivity : BaseActivity(), View.OnClickListener {
                 when (status) {
                     Constants.NORMAL -> {
                         var bundle = Bundle()
-                        bundle.putSerializable(singleton.SELECTED_MODEL, model)
+                        bundle.putSerializable(singleton.selectedModel, model)
                         singleton.startActivityWithDataBundle(
                             mAct,
                             AddOrUpdateAnimalActivity::class.java, bundle,

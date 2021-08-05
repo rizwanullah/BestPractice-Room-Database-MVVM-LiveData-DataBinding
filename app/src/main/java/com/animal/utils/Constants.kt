@@ -1,8 +1,8 @@
 package com.animal.utils
 
 open class Constants {
-    val IS_UPDATE = "IS_UPDATE"
-    val SELECTED_MODEL = "SELECTED_MODEL"
+    val isUpdate = "IS_UPDATE"
+    val selectedModel = "SELECTED_MODEL"
 
     companion object {
         var DATABASE_NAME = "ANIMAL_DATABASE"
