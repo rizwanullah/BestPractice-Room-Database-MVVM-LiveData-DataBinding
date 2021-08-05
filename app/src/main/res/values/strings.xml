@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">My Animals</string>
+    <string name="gender_unknown">Unknown</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="my_animals">My Animals</string>
+    <string name="update">Update</string>
+    <string name="add">Add</string>
+    <string name="please_enter_the_name">Please enter the Name</string>
+    <string name="please_enter_the_age">Please enter the Age</string>
+    <string name="please_enter_the_breed">Please enter the Breed</string>
+    <string name="please_enter_the_image">Please Add the image</string>
+    <string name="are_sure_you_want_to_delete">Are you sure you want to delete ?</string>
+    <string name="overview">Overview</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="breed">Breed</string>
+    <string name="gender">Gender</string>
+    <string name="delete">Delete</string>
+    <string-array name="array_gender_options">
+        <item>@string/gender_unknown</item>
+        <item>@string/gender_male</item>
+        <item>@string/gender_female</item>
+    </string-array>
+
+    <string-array name="animal_species_name">
+        <item>Birds</item>
+        <item>Insects</item>
+        <item>Mammals</item>
+        <item>Fish</item>
+        <item>Reptiles</item>
+        <item>Vertebrates</item>
+    </string-array>
+
+</resources>
